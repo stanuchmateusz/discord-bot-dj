@@ -9,7 +9,7 @@ class Dj_ttak {
         player.usun_wiadomosc_po = usun_wiadomosc_po
 
         player.on("error", (queue, error) => {
-            console.log(`[${queue.guild.name}] Error w kolejce: ${error.message}`)
+            console.log(`[${queue.guild.name}] Error w kolejce!: ${error.message}`)
         });
 
         player.on("connectionError", (queue, error) => {
