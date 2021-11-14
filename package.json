@@ -1,0 +1,16 @@
+{
+    "name": "dj_ttak",
+    "version": "0.1.0",
+    "dependencies": {
+        "@discordjs/voice": "^0.6.0",
+        "discord-player": "^5.1.0",
+        "discord.js": "^13.1.0",
+        "dotenv": "^10.0.0",
+        "ffmpeg-static": "^4.4.0",
+        "opusscript": "^0.0.8"
+    },
+    "scripts": {
+        "start": "node dj_main.js",
+        "dev": "nodemon dj_main.js"
+    }
+}
