@@ -42,7 +42,7 @@ client.on("messageCreate", async (message) => {
 client.on("interactionCreate", async (interaction) => {
     if (!interaction.isCommand() || !interaction.guildId) return;
 
-    if (dj.interakcje(player, interaction) == 'huj') {
+    if (dj.interakcje(player, interaction) == '') {
         interaction.reply({
             content: "Unknown command!",
             ephemeral: true
